@@ -31,7 +31,7 @@ All plots are embedded as base64 — no external dependencies, just one `.html` 
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/agenticOMOP.git
+git clone https://github.com/rohit43/agenticOMOP.git
 cd agenticOMOP
 ```
 
@@ -88,19 +88,20 @@ That single prompt is all you need. Claude Code reads the instructions in `CLAUD
 ## Project Structure
 
 ```
-omop-data-summarizer/
-├── data/                   # Your OMOP CSV files go here
-├── outputs/                # Generated report lands here
-├── report.qmd              # Main Quarto report document
-├── db.r                    # DuckDB connection + shared theme
-├── demographics.r          # Demographics section
-├── conditions.r            # Conditions section
-├── drugs.r                 # Drugs section
-├── visits.r                # Visits section
-├── clinical.r              # Clinical measurements section
-├── pt_utilization.r        # Patient utilization section
-├── pt_labs.r               # Lab trends section
-└── CLAUDE.md               # Instructions for Claude Code
+agenticOMOP/
+├── data/                      # Your OMOP CSV files go here
+├── outputs/                   # Generated report lands here
+├── report.qmd                 # Main Quarto report document
+├── scripts/
+│   ├── db.r                   # DuckDB connection + shared theme
+│   ├── demographics.r         # Demographics section
+│   ├── conditions.r           # Conditions section
+│   ├── drugs.r                # Drugs section
+│   ├── visits.r               # Visits section
+│   ├── clinical.r             # Clinical measurements section
+│   ├── pt_utilization.r       # Patient utilization section
+│   └── pt_labs.r              # Lab trends section
+└── CLAUDE.md                  # Instructions for Claude Code
 ```
 
 ---
