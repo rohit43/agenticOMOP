@@ -53,11 +53,10 @@ data/
 └── observation.csv
 ```
 
-<p align="center">
-  <strong style="color:red; font-size:16px;">
-    DATA COMPLIANCE NOTICE: Be mindful of privacy laws (e.g., HIPAA) and institutional policies when handling health data. Do not use, upload, or expose real patient data without proper authorization.
-  </strong>
-</p>
+> [!WARNING]
+> **Data Compliance Notice**  
+> This project is intended for properly authorized data only.  
+> You are responsible for ensuring compliance with HIPAA, GDPR, and institutional policies before using real patient data.
 
 ### 3. Install dependencies
 
